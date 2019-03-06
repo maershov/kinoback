@@ -8,7 +8,7 @@
 
 void reverse(char*, int );
 void swap(char*, char*);
-char* itoa(size_t , char*, int);
+char* itoa(size_t , char*, int, int);
 size_t toten(char*, int);
 size_t todegree(int, int);
 
@@ -67,7 +67,7 @@ int main() {
     }
 
     char* str1 = (char*) malloc(sizeof(char) * (num + 1));
-    itoa(valueten, str1, Q);
+    itoa(valueten, str1, Q, num);
     if (!(strcmp(str1, "-1"))){
         printf("%s", "[error]");
         free(str1);
@@ -114,12 +114,12 @@ void reverse(char str[], int length)
     }
 }
 
-char* itoa(size_t num, char* str, int base)
+char* itoa(size_t num, char* str, int base, int cap)
 {
     int i = 0;
-    int capacity = 0;
+    int capacity = num;
 
-    capacity = strlen(str) - 1;
+    //capacity = (strlen(str) - 1);????
 
     if (num == 0)
     {

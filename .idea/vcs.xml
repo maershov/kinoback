@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.ssh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ1/IZZ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZCC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZCC/IZC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZC/IZC" vcs="Git" />
   </component>
 </project>
