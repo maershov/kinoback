@@ -8,7 +8,12 @@
     <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZC" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZCC" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IZ1/IZZ/IZCC/IZC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ11/IZZ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ11/IZZ/IZCC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IZ11/IZZ/IZCC/IZC" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IZC" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IZC/IZC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TPIZ1" vcs="Git" />
   </component>
 </project>
